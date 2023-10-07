@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+       
+        * {
+            margin: 1;
+            padding: 1;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 19px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 19px;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .bottom-left-link {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #007bff;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            text-decoration: none;
+            color: #f9fafa;
+            border-radius: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to SOlVE.it </h1>
+        <p>A place to solve all your problems</p>
+    </header>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>A place where you can share all of your problems and we'll help you in solving each of them</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Counselling or Therapy chat/call Sessions free for first 10mins</li>
+            <li>Premium membership where you can connect to our mentors for as long as you need</li>
+            <li>Talk to our AI chatbot WIZZY for any further queries </li>
+        </ul>
+
+        <h3>
+        <a href="#" class="cta-button">Get Started</a>
+        <a href="#" class="bottom-left-link">Talk to Wizzy</a>
+    </h3>
+    <u2>
+        <p>NOTE: WE MAINTAIN END TO END PRIVACY</p>
+    </u2>
+    </div>
+</body>
+</html>
